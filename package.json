@@ -1,0 +1,24 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=prod node index.js",
+    "start_dev": "NODE_ENV=dev OUTRA=art node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurproducer/api_node.git"
+  },
+  "author": "Arthur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthurproducer/api_node/issues"
+  },
+  "homepage": "https://github.com/arthurproducer/api_node#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
