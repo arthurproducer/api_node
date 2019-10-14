@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_ENV=prod nodemon index.js"
-  
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +19,7 @@
   "homepage": "https://github.com/arthurproducer/api_node#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "firebase": "^7.2.0",
     "nodemon": "^1.19.3"
   }
 }
